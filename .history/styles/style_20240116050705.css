@@ -1,0 +1,296 @@
+/* Import Fonts From Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+/* color clearance */
+:root{
+    --primary-color: #FF5400;
+    --secondary-color: #131318;
+    --third-color: #fff;
+}
+
+/* all default size off */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/* container display measuring size*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* primary title, description and button */
+.primary-title{
+    color: var(--secondary-color);
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.primary-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0;
+}
+/* navigation css style */
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.website-name{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+}
+.website-name img{
+    width: 48px;
+}
+.website-name .web-text{
+    color: var(--secondary-color);
+    font-family: Mulish;
+    font-size: 2.25rem;
+    font-weight: 800; 
+}
+.website-name .web-text-color{
+    color: var(--primary-color);
+}
+
+
+.checkbtn{
+    font-size: 1.75rem;
+    color: #131318;
+    display: none;   
+}
+#check{
+    display: none;
+}
+
+
+
+.navigation > .nav{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+.nav > li{
+    list-style: none;
+}
+.nav > li a{
+    color: #424247;
+    font-family: Mulish;
+    font-size: 1.125rem;;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+.nav > li a.active, .nav > li a:hover{
+    color: var(--primary-color);
+}
+
+#banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group13.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 16px;
+}
+.banner-text{
+    padding-top: 106px;
+    width: 676px;
+    margin: 0 auto 48px auto;
+    text-align: center;
+}
+.banner-text .banner-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-text .banner-description{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+.banner-form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 816px;
+    padding: 16px 0px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.banner-form input, .banner-form select{
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 8px;
+    background: #FFF;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 14px;
+    border: 2px solid transparent;
+    transition: all ease 0.5s;
+    width: 200px;
+}
+.banner-form input:hover{
+    border: 2px solid var(--primary-color);
+}
+.banner-form select:hover{
+    border: 2px solid var(--primary-color);
+}
+.primary-btn{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 14px 25px;
+    border:  2px solid transparent;
+    transition: all ease 0.5s;
+}
+.primary-btn:hover{
+    border: 2px solid var(--primary-color);
+    background: #fff;
+    color: var(--primary-color);
+}
+
+
+
+/* tour section css style */
+#tour{
+    margin: 100px 0;
+}
+.tour-container{
+    display: flex;
+    gap: 53px;
+    align-items: center;
+}
+.tour-text{
+    width: 47%;
+}
+.tour-img{
+    width: 52%;
+}
+.tour-img img{
+    width: 100%;
+}
+.tour-list > li{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile device */
+@media only screen and (max-width: 576px){
+
+
+    /* primary  */
+    .primary-title{
+        font-size: 20px;
+    }
+    .primary-description{
+        font-size: 14px;
+        line-height: 24px; 
+    }
+
+
+
+
+
+
+
+
+
+    /* navigation mobile device part css style */
+    .navigation{
+        margin: 35px 0;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .navigation > .nav{
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 30px;
+        position: fixed;
+        width: 100%;
+        height: 50vh;
+        background: #fff;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all ease 0.3s;
+    }
+    #check{
+        display: none;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    
+    /* banner mobile device section css style */
+    .banner-text {
+        padding-top: 32px;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .banner-text .banner-title{
+        font-size: 1.375rem;
+    }
+    .banner-text .banner-description{
+        font-size: 0.875rem;
+        line-height: 21px;
+    }
+    .banner-form input, .banner-form select{
+        width: 100%;
+    }
+    .banner-form {
+        width: 85%;
+        padding: 16px 20px;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+
+    /* tour mobile device section css style */
+    #tour{
+        margin: 24px 0;
+    }
+    .tour-container {
+        gap: 24px;
+        flex-direction: column;
+    }
+    .tour-text{
+        width: 100%;
+    }
+    .tour-img{
+        width: 100%;
+    }
+}
