@@ -765,20 +765,12 @@
     }
 
     /* footer part css style */
-    #footer {
-        padding: 33px 0;
-        margin-top: 24px;
-    }
-    .footer-container {
-        padding-bottom: 24px;
-        margin-bottom: 24px;
-    }
     .footer-description {
         width: 100%;
         font-size: 0.875rem;
         font-weight: 400;
         line-height: 24px;
-        margin: 0 auto 16px auto;
+        margin: 0 auto 33px auto;
     }
 
 

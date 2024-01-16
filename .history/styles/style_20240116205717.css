@@ -1,5 +1,4 @@
 /* Import Fonts From Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 /* color clearance */
@@ -481,53 +480,11 @@
 /* footer part css style */
 #footer{
     background: rgba(19, 19, 24, 0.05);
-    padding: 110px 0;
-    margin-top: 100px;
+    padding-top: 110px 0;
 }
 .footer-container{
     text-align: center;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
 }
-.website-footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 15px;
-}
-.footer-description{
-    width: 796px;
-    color: #5A5A5D;
-    font-family: Mulish;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 26px;
-    margin: 0 auto 33px auto;
-}
-.footer-container .social-link{
-    color: var(--secondary-color);
-    font-size: 1.5rem;
-    text-decoration: none;
-    margin-right: 20px;
-}
-.footer-reserved{
-    color: #131318;
-    font-family: Inter;
-    font-size: 1rem;
-    font-weight: 300;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -762,23 +719,6 @@
         height: 95px;
         margin-bottom: 33px;
         margin-right: 5px;
-    }
-
-    /* footer part css style */
-    #footer {
-        padding: 33px 0;
-        margin-top: 24px;
-    }
-    .footer-container {
-        padding-bottom: 24px;
-        margin-bottom: 24px;
-    }
-    .footer-description {
-        width: 100%;
-        font-size: 0.875rem;
-        font-weight: 400;
-        line-height: 24px;
-        margin: 0 auto 16px auto;
     }
 
 

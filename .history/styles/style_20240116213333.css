@@ -692,7 +692,7 @@
 
     /* deals section css style  */
     .deals-content {
-        height: 100vh;
+        height: 60vh;
         margin-top: 24px;
         border-radius: 16px;
         justify-content: center;
@@ -752,7 +752,7 @@
     }
     .newsletter-img {
         width: 100%;
-        height: 75vh;
+        height: 60vh;
     }
     .save-up-title {
         font-size: 1.375rem;
