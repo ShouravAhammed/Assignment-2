@@ -344,9 +344,6 @@
     width: 500px;
     margin-right: 56px;
 }
-.deals-customize-text{
-    margin-left: 56px;
-}
 .deals-price{
     color: var(--primary-color);
     font-family: Mulish;
@@ -752,9 +749,6 @@
         width: 90%;
         margin-right: 0px;
         margin-bottom: 16px;
-    }
-    .deals-customize-text{
-        margin-left: 0;
     }
     .date-time{
         gap: 10px;

@@ -334,6 +334,7 @@
 }
 .deals-another{
     justify-content: flex-start;
+    margin-left: 20px;
 }
 .deals-text{
     border-radius: 16px;
@@ -343,9 +344,6 @@
     padding: 50px;
     width: 500px;
     margin-right: 56px;
-}
-.deals-customize-text{
-    margin-left: 56px;
 }
 .deals-price{
     color: var(--primary-color);
@@ -752,9 +750,6 @@
         width: 90%;
         margin-right: 0px;
         margin-bottom: 16px;
-    }
-    .deals-customize-text{
-        margin-left: 0;
     }
     .date-time{
         gap: 10px;
