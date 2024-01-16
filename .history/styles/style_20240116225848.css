@@ -405,7 +405,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 48px;
 }
 .enjoy-content{
     width: 225px;
@@ -414,21 +413,7 @@
     border: 2px solid rgba(251, 181, 99, 0.20);
     border-radius: 15px;
     text-align: center;
-    transition: all ease 0.3s;
 }
-.enjoy-content:hover{
-    background: var(--third-color);
-}
-.enjoy-content img{
-    width: 64px;
-}
-.enjoy-content-title {
-    color: var(--secondary-color);
-    font-family: Mulish;
-    font-size: 1.5rem;
-    font-weight: 800;
-}
-
 
 /* newsletter section css style */
 .newsletter-container{
@@ -598,8 +583,8 @@
         padding-top: 30px;
         position: fixed;
         width: 100%;
-        height: 80vh;
-        background: var(--third-color);
+        height: 50vh;
+        background: #fff;
         top: 80px;
         left: -100%;
         text-align: center;
@@ -610,16 +595,6 @@
     }
     #check:checked ~ ul{
         left: 0;
-    }
-    
-    .website-name {
-        gap: 8px;
-    }
-    .website-name img {
-        width: 32px;
-    }
-    .website-name .web-text {
-        font-size: 1.375rem;
     }
 
     /* primary btn */
@@ -783,23 +758,6 @@
         line-height: 24px;
     }
 
-    /* enjoy section style css  */
-    #enjoy{
-        margin: 32px 0;
-    }
-    .enjoy-tour{
-        flex-direction: column;
-        gap: 24px;
-    }
-    .enjoy-tour{
-        margin-top: 32px;
-    }
-    .enjoy-content{
-        width: 100%;
-    }
-    .enjoy-content-title{
-        font-size: 1.25rem;
-    }
     /* newsletter section css style */
     .newsletter-container {
         display: flex;
