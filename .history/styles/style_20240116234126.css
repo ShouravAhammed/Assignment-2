@@ -635,7 +635,7 @@
     
     /* banner mobile device section css style */
     #banner{
-        height: 80vh;
+        height: 100vh;
     }
     .banner-text {
         padding-top: 32px;
@@ -821,7 +821,7 @@
     }
     .newsletter-img {
         width: 100%;
-        height: 65vh;
+        height: 75vh;
     }
     .save-up-title {
         font-size: 1.375rem;
