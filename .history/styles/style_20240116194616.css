@@ -172,6 +172,7 @@
     border: 2px solid var(--primary-color);
 }
 
+
 /* tour section css style */
 #tour{
     margin: 100px 0;
@@ -400,7 +401,6 @@
 .newsletter-container{
     display: flex;
     gap: 24px;
-    align-items: center;
 }
 .newsletter-text{
     width: 450px;
@@ -430,54 +430,14 @@
 .newsletter-form input{
     width: 100%;
     padding: 16px 0 16px 20px;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     margin-bottom: 16px;
-    transition: all ease 0.5s;
-}
-.newsletter-form input:hover{
-    border: 2px solid var(--primary-color);
 }
 .newsletter-btn{
     width: 100%;
 }
-.newsletter-img{
-    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 672px;
-    height: 422px;
-    border-radius: 16px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
-}
-.save-up {
-    width: 324px;
-    height: 120px;
-    text-align: center;
-    background: var(--primary-color);
-    padding: 20px 20px;
-    border-radius: 16px;
-    transform: rotate(-19.628deg);
-    margin-bottom: 47px;
-    margin-right: 8px;
-}
-.save-up-description{
-    color: var(--third-color);
-    font-family: Mulish;
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-.save-up-title{
-    color: var(--third-color);
-    font-family: Mulish;
-    font-size: 2rem;
-    font-weight: 800;
-}
-/* footer part css style */
 
 
 
@@ -541,7 +501,7 @@
     }
     .banner-text {
         padding-top: 32px;
-        width: 90%;
+        width: 100%;
         margin-bottom: 32px;
     }
     .banner-text .banner-title{
@@ -690,30 +650,4 @@
         font-size: 0.875rem;
         line-height: 24px;
     }
-
-    /* newsletter section css style */
-    .newsletter-container {
-        display: flex;
-        gap: 15px;
-        flex-direction: column;
-    }
-    .newsletter-text {
-        width: 100%;
-        padding: 24px;
-    }
-    .newsletter-img {
-        width: 100%;
-        height: 75vh;
-    }
-    .save-up-title {
-        font-size: 1.375rem;
-    }
-    .save-up {
-        width: 222px;
-        height: 95px;
-        margin-bottom: 33px;
-        margin-right: 5px;
-    }
-
-
 }
